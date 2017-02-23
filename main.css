@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	font-family: "century gothic";
 		}
 
 body{
@@ -8,165 +9,188 @@ body{
 	}
 
 div.name{
-	display: block;
+	display: inline-block;
 	text-align: center;
+	width: 681px;
 	margin-top: 80px;
-	font-family: "century gothic";
 	font-weight: bold;
 	font-size: 100px;
+	margin-left: 290px;
+	margin-right: auto;
 	color: #444;
 	color: black;
 }
 div.details{
-	display: block;
-	font-family: "century gothic";
+	display: inline-block;
 	text-align: center;
+	width: 586px;
+	margin-left: 340px;
+	margin-right: auto;
 	color: white;
 	font-size: 20px;
 	padding-top: 12px;
 }
 
 img{
-	width: 40%;
-	height: auto;
 	display: block;
+	height: auto;
 	padding-top: 120px;
 }
 
+div.picure{
+	display: block;
+	width: 100%;
+}
 img.me{
+	position: absolute;
 	margin-top: -80px;
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 380px;
 	width: 500px;
 	height: auto;
 }
 
 
-
+/* //////////////   OVERLAY  ///////////////////*/
 div.graphic1{
 	background: #333;
-	margin-top: 150px;
+	margin-top: 480px;
+	display: block;
 	height: 750px;
+	width: 100%;
 }
 img.overlay{	
 	float: left;
-	margin-left: 100px;
+	margin-left: 80px;
 	margin-right: auto;
-	min-width: 300px;
+	width: 505px;
 }
-div.overlay{
-	display: inline;
+h1.overlay{			
+	position: absolute;
+	display: inline-block;
 	float: right;
-}
-h1.overlay{
+	min-width: 658px;
 	padding-top: 300px;
 	color: white;
-	font-family: "century gothic";
 	text-align: center;
 }
-p.overlay{
-	font-family: "century gothic";
+p.overlay{			
+	margin-top: 341px;
+	position: absolute;
+	display: inline-block;
+	float: right;
+	width: 638px;
+	padding: 10px 10px;
 	text-align: center;
 	color: #d9d9d9;
-	padding: 15px 50px 0 670px;
 }
 
 
+/* //////////////   DAILY BRUIN  ///////////////////*/
 div.graphic2{
+	display: block;
 	background: white;
 	height: 750px;
+	width: 100%;
 }
 img.dailybruin{
 	float: right;
-	margin-right: 100px;
-	margin-left: auto;
-	width: 55%;
-	padding-top: 125px;
-}
-div.dailybruin{
-	display: inline;
-	float: left;
+	display: inline-block;
+	position: absolute;
+	width: 690px;
+	padding: 125px 0 0 490px;
 }
 h1.dailybruin{
+	display: inline-block;
+	float: left;
+	position: absolute;
+	width: 473px;
 	text-align: center;
 	margin-left: 10px;
 	padding-top: 300px;
 	font-size: 28px;
 	color: black;
-	font-family: "century gothic";
 }
 p.dailybruin{
-	margin-top: 1%;
-	padding: 0 67% 0 3%;
+	display: inline-block;
+	float: left;
+	position: absolute;
+	padding: 345px 20px 0 20px;
+	width: 440px;
 	text-align: center;
 	font-size: 15px;
 	color: #777;
-	font-family: "century gothic";
 }
 
 
+/* //////////////   FAMILY TAKEOVER  ///////////////////*/
 div.graphic3{
+	display: block;
 	background: #e6f3ff;
 	background: #ccffff;
 	height: 720px;
+	width: 100%;
 }
 div.familytakeover{
 	display: block;
+	width: 100%;
 }
 h1.familytakeover{
+	display: inline-block;
+	width: 300px;
+	margin-left: 480px;
 	padding-top: 60px;
 	text-align: center;
 	color: black;
-	font-family: "century gothic";
 }
 p.familytakeover{
-	padding: 0 5%;
+	display: inline-block;
+	width: 1080px;
+	padding: 10px 40px 0 80px;
 	text-align: center;
 	color: #666;
-	font-family: "century gothic";
 }
 img.familytakeover{
-	margin: 50px auto;
-	width: 90%;
+	margin: 30px 68px;
+	width: 1120px;
 	padding: 0;
 }
 
 
+/* //////////////   ASSASSINS  ///////////////////*/
 div.graphic4{
+	display: block;
 	background: black;
 	height: 750px;
+	width: 100%;
 }
 img.assassins{
-	display: inline;
+	display: inline-block;
 	float: left;
 	padding-top: 90px;
 	margin-left: 70px;
 	margin-right: auto;
-	width: 45%;
-}
-div.assassins{
-	display: inline-block;
-	float: right;
+	width: 560px;
 }
 h1.assassins{
+	display: inline-block;
+	position: absolute;
 	padding-top: 300px;
 	text-align: center;
+	width: 625px;
 	color: white;
-	font-family: "century gothic";
 }
 p.assassins{
-	padding-top: 10px;
-	padding-right: 40px;
-	padding-left: 680px;
+	display: inline-block;
+	position: absolute;
+	width: 585px;
+	padding: 350px 20px 0 20px;
 	text-align: center;
 	color: #d9d9d9;
-	font-family: "century gothic";
 }
 
 footer {
 	background: black;
 	float: bottom;
-	font-family: "Century Gothic";
 	font-size: 15px;
 	color: white;
 	padding-bottom: 20px;
