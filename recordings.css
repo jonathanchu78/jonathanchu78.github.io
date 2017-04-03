@@ -1,0 +1,18 @@
+h1{
+	margin-bottom: 50px;
+}
+
+div.vid{
+	margin: 50px 0;
+}
+
+iframe{
+	display: block;
+	margin: 0 auto;
+}
+
+div.text{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}

@@ -1,198 +1,81 @@
-*{
+body{
+	font-family: tahoma;
+	color: black;
+	background: white;
+}
+
+header.navbar{
 	padding: 0;
 	margin: 0;
-	font-family: "century gothic";
-		}
+}
 
-body{
-		background: #ccccff;
-	}
+.navbar-default{
+	border: none;
+}
 
-div.name{
-	display: inline-block;
-	text-align: center;
-	width: 681px;
-	margin-top: 80px;
+nav.navbar{
+	background: white;
+	padding: none;
+	margin: none;
+}
+
+img.logo{
+	padding: 2px 0 2px 0;
+	margin: 0;
+	margin-right: 10px;
+	height: 65px;
+	width: auto;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background: #eaf2ff;
+	color: white;
+	background: #b7c7ff;
+	font-style: italic;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 100px;
-	margin-left: 290px;
-	margin-right: auto;
-	color: #444;
-	color: black;
-}
-div.details{
-	display: inline-block;
 	text-align: center;
-	width: 586px;
-	margin-left: 340px;
-	margin-right: auto;
-	color: white;
-	font-size: 20px;
-	padding-top: 12px;
 }
 
-img{
-	display: block;
-	height: auto;
-	padding-top: 120px;
-}
-
-div.picure{
-	display: block;
-	width: 100%;
+img.name{
+	width: 600px;
 }
 img.me{
-	position: absolute;
-	margin-top: -80px;
-	padding-left: 380px;
-	width: 500px;
+	display: block;
+	margin: 0 auto;
+	width: 220px;
 	height: auto;
 }
 
-
-/* //////////////   OVERLAY  ///////////////////*/
-div.graphic1{
-	background: #333;
-	margin-top: 480px;
-	display: block;
-	height: 750px;
-	width: 1263px;
-}
-img.overlay{	
-	float: left;
-	margin-left: 80px;
-	margin-right: auto;
-	width: 505px;
-}
-h1.overlay{			
-	position: absolute;
-	display: inline-block;
-	float: right;
-	min-width: 658px;
-	padding-top: 300px;
-	color: white;
-	text-align: center;
-}
-p.overlay{			
-	margin-top: 341px;
-	position: absolute;
-	display: inline-block;
-	float: right;
-	width: 638px;
-	padding: 10px 10px;
-	text-align: center;
-	color: #d9d9d9;
+nav.navbar{
+	padding-left: 10px;
+	font-size: 20px;
 }
 
+a{
+	margin: 5px 5px 0px 5px;
+	background: #eaf2ff;
+	outline-width: 0px;
+	outline-style: solid;
+	outline-color: black;
+	color: black;
+}
 
-/* //////////////   DAILY BRUIN  ///////////////////*/
-div.graphic2{
-	display: block;
+a.logo{
+	border: none;
+	outline: none;
 	background: white;
-	height: 750px;
-	width: 1263px;
-}
-img.dailybruin{
-	float: right;
-	display: inline-block;
-	position: absolute;
-	width: 690px;
-	padding: 125px 0 0 490px;
-}
-h1.dailybruin{
-	display: inline-block;
-	float: left;
-	position: absolute;
-	width: 473px;
-	text-align: center;
-	margin-left: 10px;
-	padding-top: 300px;
-	font-size: 28px;
-	color: black;
-}
-p.dailybruin{
-	display: inline-block;
-	float: left;
-	position: absolute;
-	padding: 345px 20px 0 20px;
-	width: 440px;
-	text-align: center;
-	font-size: 15px;
-	color: #777;
 }
 
-
-/* //////////////   FAMILY TAKEOVER  ///////////////////*/
-div.graphic3{
-	display: block;
-	background: #e6f3ff;
-	background: #ccffff;
-	height: 720px;
-	width: 1263px;
-}
-div.familytakeover{
-	display: block;
-	width: 100%;
-}
-h1.familytakeover{
-	display: inline-block;
-	width: 300px;
-	margin-left: 480px;
-	padding-top: 60px;
-	text-align: center;
-	color: black;
-}
-p.familytakeover{
-	display: inline-block;
-	width: 1080px;
-	padding: 10px 40px 0 80px;
-	text-align: center;
-	color: #666;
-}
-img.familytakeover{
-	margin: 30px 68px;
-	width: 1120px;
-	padding: 0;
-}
-
-
-/* //////////////   ASSASSINS  ///////////////////*/
-div.graphic4{
-	display: block;
-	background: black;
-	height: 750px;
-	width: 1263px;
-}
-img.assassins{
-	display: inline-block;
-	float: left;
-	padding-top: 90px;
-	margin-left: 70px;
-	margin-right: auto;
-	width: 560px;
-}
-h1.assassins{
-	display: inline-block;
-	position: absolute;
-	padding-top: 300px;
-	text-align: center;
-	width: 625px;
-	color: white;
-}
-p.assassins{
-	display: inline-block;
-	position: absolute;
-	width: 585px;
-	padding: 350px 20px 0 20px;
-	text-align: center;
-	color: #d9d9d9;
-}
-
-footer {
-	background: black;
-	float: bottom;
-	font-size: 15px;
-	color: white;
-	padding-bottom: 20px;
-	height: 15px;
+a{
+	background: white;
 }
