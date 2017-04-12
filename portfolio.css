@@ -52,7 +52,7 @@ div.bio{
 p.cki{
 	width: 530px;
 	margin: 0 auto;
-	text-align: left;
+	text-align: center;
 	padding-bottom: 50px;
 }
 
@@ -87,10 +87,10 @@ div.graphic2{
 	display: block;
 }
 div.text2{
-	padding: 220px 0 0 3%;
+	padding: 250px 0 0 3%;
 }
 img.graphic2{	
-	width: 550px; height: auto;
+	width: 400px; height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 70px 0;
@@ -150,8 +150,8 @@ p.graphic4{
 }
 
 div.footer{
-	background: #111;
-	color: white;
+	background: white;
+	color: black;
 }
 p.title{
 	padding-top: 20px;
@@ -162,13 +162,13 @@ p.title{
 
 div.signature{
 	margin: 0; padding: 0;
-	background: #111;
+	background: white;
 	padding: 0 0 10px 20px;
 	height: 145px;
 }
 div.footerRt{
 	margin: 0; padding: 0;
-	background: #111;
+	background: white;
 	height: 145px;
 }
 img.logoBtm{
