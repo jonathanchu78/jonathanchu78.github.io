@@ -1,198 +1,65 @@
-*{
-	padding: 0;
-	margin: 0;
-	font-family: "century gothic";
-		}
+@font-face{font-family: 'MyriadPro'; src: url(Fonts/MyriadPro-Regular.otf) format('opentype');}
+@font-face{font-family: 'Pasajero'; src: url(Fonts/Pasajero.otf) format('opentype');}
+@font-face{font-family: 'AvantGarde'; src: url(Fonts/AvantGarde.ttf) format('truetype');}
+@font-face{font-family: 'CenturyGothic'; src: url(Fonts/CenturyGothic.ttf) format('truetype');}
 
 body{
-		background: #ccccff;
-	}
-
-div.name{
-	display: inline-block;
-	text-align: center;
-	width: 681px;
-	margin-top: 80px;
-	font-weight: bold;
-	font-size: 100px;
-	margin-left: 290px;
-	margin-right: auto;
-	color: #444;
+	font-family: "MyriadPro";
 	color: black;
-}
-div.details{
-	display: inline-block;
-	text-align: center;
-	width: 586px;
-	margin-left: 340px;
-	margin-right: auto;
-	color: white;
-	font-size: 20px;
-	padding-top: 12px;
-}
-
-img{
-	display: block;
-	height: auto;
-	padding-top: 120px;
-}
-
-div.picure{
-	display: block;
-	width: 100%;
-}
-img.me{
-	position: absolute;
-	margin-top: -80px;
-	padding-left: 380px;
-	width: 500px;
-	height: auto;
-}
-
-
-/* //////////////   OVERLAY  ///////////////////*/
-div.graphic1{
-	background: #333;
-	margin-top: 480px;
-	display: block;
-	height: 750px;
-	width: 1263px;
-}
-img.overlay{	
-	float: left;
-	margin-left: 80px;
-	margin-right: auto;
-	width: 505px;
-}
-h1.overlay{			
-	position: absolute;
-	display: inline-block;
-	float: right;
-	min-width: 658px;
-	padding-top: 300px;
-	color: white;
-	text-align: center;
-}
-p.overlay{			
-	margin-top: 341px;
-	position: absolute;
-	display: inline-block;
-	float: right;
-	width: 638px;
-	padding: 10px 10px;
-	text-align: center;
-	color: #d9d9d9;
-}
-
-
-/* //////////////   DAILY BRUIN  ///////////////////*/
-div.graphic2{
-	display: block;
 	background: white;
-	height: 750px;
-	width: 1263px;
-}
-img.dailybruin{
-	float: right;
-	display: inline-block;
-	position: absolute;
-	width: 690px;
-	padding: 125px 0 0 490px;
-}
-h1.dailybruin{
-	display: inline-block;
-	float: left;
-	position: absolute;
-	width: 473px;
-	text-align: center;
-	margin-left: 10px;
-	padding-top: 300px;
-	font-size: 28px;
-	color: black;
-}
-p.dailybruin{
-	display: inline-block;
-	float: left;
-	position: absolute;
-	padding: 345px 20px 0 20px;
-	width: 440px;
-	text-align: center;
-	font-size: 15px;
-	color: #777;
-}
-
-
-/* //////////////   FAMILY TAKEOVER  ///////////////////*/
-div.graphic3{
-	display: block;
-	background: #e6f3ff;
-	background: #ccffff;
-	height: 720px;
-	width: 1263px;
-}
-div.familytakeover{
-	display: block;
-	width: 100%;
-}
-h1.familytakeover{
-	display: inline-block;
-	width: 300px;
-	margin-left: 480px;
-	padding-top: 60px;
-	text-align: center;
-	color: black;
-}
-p.familytakeover{
-	display: inline-block;
-	width: 1080px;
-	padding: 10px 40px 0 80px;
-	text-align: center;
-	color: #666;
-}
-img.familytakeover{
-	margin: 30px 68px;
-	width: 1120px;
+	margin: 0;
 	padding: 0;
 }
 
-
-/* //////////////   ASSASSINS  ///////////////////*/
-div.graphic4{
-	display: block;
-	background: black;
-	height: 750px;
-	width: 1263px;
-}
-img.assassins{
-	display: inline-block;
-	float: left;
-	padding-top: 90px;
-	margin-left: 70px;
-	margin-right: auto;
-	width: 560px;
-}
-h1.assassins{
-	display: inline-block;
-	position: absolute;
-	padding-top: 300px;
-	text-align: center;
-	width: 625px;
-	color: white;
-}
-p.assassins{
-	display: inline-block;
-	position: absolute;
-	width: 585px;
-	padding: 350px 20px 0 20px;
-	text-align: center;
-	color: #d9d9d9;
+nav.navbar{
+	background: white;
+	padding: none;
+	margin: none;
+	border: none;
 }
 
-footer {
-	background: black;
-	float: bottom;
-	font-size: 15px;
-	color: white;
-	padding-bottom: 20px;
-	height: 15px;
+img.logo{
+	padding: 6px 0 ;
+	height: 65px;
+	margin-right: 10px;
+	width: auto;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-family: "AvantGarde";
+  line-height: 35px;
+  font-size: 21px;
+  color: black;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  transition: 0.5s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #4c8de8;
+}
+
+ img.home{
+	width: 100%;
+	margin-top: -19px;
+}
+
+nav.navbar{
+	padding-left: 15px;
+	font-size: 20px;
+}
+
+
+a.logo{
+	border: none;
+	outline: none;
+	background: white;
+}
+
+h1{
+	font-family: CenturyGothic;
+	font-size: 40px;
+	padding: none;
 }
