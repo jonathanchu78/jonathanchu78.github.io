@@ -1,5 +1,21 @@
+nav.navbar{
+	border-bottom: solid;
+	border-bottom-width: 0.5px;
+}
+
+div.intro{
+	margin: 0 auto;
+	margin-top: 3.5%;
+	width: 70%;
+}
+
 h1{
-	margin-bottom: 50px;
+	font-size: 35px;
+}
+
+h2{
+	font-size: 25px;
+	margin: -5px 0 2px 0;
 }
 
 div.vid{
@@ -13,6 +29,12 @@ iframe{
 
 div.text{
 	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 100px;
+	width: 70%;
+	font-size: 18px;
+	line-height: 23px;
+}
+
+div.bottom, img.bottom{
+	width: 100%;
 }
