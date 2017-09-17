@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face{font-family: 'MyriadPro'; src: url(Fonts/MyriadPro-Regular.otf) format('opentype');}
 @font-face{font-family: 'Pasajero'; src: url(Fonts/Pasajero.otf) format('opentype');}
 @font-face{font-family: 'AvantGarde'; src: url(Fonts/AvantGarde.ttf) format('truetype');}
@@ -52,79 +51,6 @@ nav.navbar{
 	font-size: 20px;
 }
 
-=======
-body{
-	font-family: tahoma;
-	color: black;
-	background: white;
-}
-
-header.navbar{
-	padding: 0;
-	margin: 0;
-}
-
-.navbar-default{
-	border: none;
-}
-
-nav.navbar{
-	background: white;
-	padding: none;
-	margin: none;
-}
-
-img.logo{
-	padding: 2px 0 2px 0;
-	margin: 0;
-	margin-right: 10px;
-	height: 65px;
-	width: auto;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: black;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-	background: #eaf2ff;
-	color: white;
-	background: #b7c7ff;
-	font-style: italic;
-}
-
-h1{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 100px;
-	text-align: center;
-}
-
-img.name{
-	width: 600px;
-}
-img.me{
-	display: block;
-	margin: 0 auto;
-	width: 220px;
-	height: auto;
-}
-
-nav.navbar{
-	padding-left: 10px;
-	font-size: 20px;
-}
-
-a{
-	margin: 5px 5px 0px 5px;
-	background: #eaf2ff;
-	outline-width: 0px;
-	outline-style: solid;
-	outline-color: black;
-	color: black;
-}
->>>>>>> origin/master
 
 a.logo{
 	border: none;
@@ -132,13 +58,8 @@ a.logo{
 	background: white;
 }
 
-<<<<<<< HEAD
 h1{
 	font-family: CenturyGothic;
 	font-size: 40px;
 	padding: none;
-=======
-a{
-	background: white;
->>>>>>> origin/master
 }
