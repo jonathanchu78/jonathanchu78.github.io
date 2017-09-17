@@ -38,3 +38,26 @@ div.text{
 div.bottom, img.bottom{
 	width: 100%;
 }
+
+iframe{
+	height: 480;
+}
+
+
+@media (max-width: 768px){
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	body{
+		font-size: 13px;
+	}
+	div.text{
+		font-size: 13px;
+	}
+	iframe{
+		height: 200;
+	}
+}

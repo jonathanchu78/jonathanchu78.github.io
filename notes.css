@@ -74,3 +74,33 @@ a.ln:hover{
   transition: 0.3s ease;
   text-decoration: none;
 }
+
+@media (max-width: 768px){
+	h2{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 12px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	div.class{
+		height: 145px;
+	}
+}
+
+@media (max-width: 500px){
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 10px;
+	}
+	h4{
+		font-size: 12px;
+	}
+	div.class{
+		height: 120px;
+	}
+}

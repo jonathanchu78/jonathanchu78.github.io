@@ -11,9 +11,6 @@ h1{
 	text-align: left;
 }
 
-body{
-		text-align: center;
-	}
 
 div.name{
 	text-align: center;
@@ -38,11 +35,6 @@ img.me{
 	height: auto;
 	padding: 50px 0 50px 0;
 }
-
-div.bio{
-	color: black;
-}
-
 
 /* //////////////   CAROUSEL  ///////////////////*/
 
@@ -122,3 +114,22 @@ p.desc{
 }
 
 
+
+@media (max-width: 768px){
+	h1{
+		font-size: 20px;
+	}
+	div.bio, p.desc{
+		font-size: 12px;
+	}
+	div.container{
+		width: 80%;
+		margin: 5% auto;
+	}
+	div.square{
+		width: 65%;
+	}
+	div.vertical{
+		width: 50%;
+	}
+}
