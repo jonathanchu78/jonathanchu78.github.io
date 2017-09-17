@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 nav.navbar{
@@ -12,6 +13,29 @@ h1{
 }
 
 body{
+=======
+*{
+	padding: 0;
+	margin: 0;
+	font-family: tahoma;
+}
+
+div.name{
+	font-family: "century gothic";
+}
+
+div.details{
+	font-family: "century gothic";
+}
+
+h1{
+	font-family: "century gothic";
+	font-size: 30px;
+}
+
+body{
+		background: #ccccff;
+>>>>>>> origin/master
 		text-align: center;
 	}
 
@@ -42,6 +66,7 @@ img.me{
 div.bio{
 	color: black;
 }
+<<<<<<< HEAD
 
 
 /* //////////////   CAROUSEL  ///////////////////*/
@@ -119,6 +144,156 @@ img.graphic{
 p.desc{
 	font-size: 15px;
 	text-align: left;
+=======
+p.cki{
+	width: 530px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+/* //////////////   GRAPHIC 1  ///////////////////*/
+div.graphic1{
+	background: #333;
+	display: block;
+}
+div.text1{
+	padding: 180px 0 0 3%;
+}
+img.graphic1{	
+	width: 500px; height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px 0;
+}
+h1.graphic1{			
+	color: white;
+}
+p.graphic1{			
+	display: inline-block;
+	color: #d9d9d9;
+}
+
+
+/* //////////////   GRAPHIC 2  ///////////////////*/
+
+div.graphic2{
+	background: white;
+	display: block;
+}
+div.text2{
+	padding: 250px 0 0 3%;
+}
+img.graphic2{	
+	width: 400px; height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px 0;
+}
+h1.graphic2{			
+	color: black;
+}
+p.graphic2{			
+	display: inline-block;
+	color: #555;
+}
+
+
+/* //////////////   GRAPHIC 3  ///////////////////*/
+div.graphic3{
+	background: #ffff99;
+	display: block;
+}
+div.text3{
+	padding: 220px 0 0 3%;
+}
+img.graphic3{	
+	width: 600px; height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px 0;
+}
+h1.graphic3{			
+	color: black;
+}
+p.graphic3{			
+	display: inline-block;
+	color: #555;
+}
+
+
+/* //////////////   GRAPHIC 4  ///////////////////*/
+div.graphic4{
+	background: black;
+	display: block;
+}
+div.text4{
+	padding: 220px 0 0 3%;
+}
+img.graphic4{	
+	width: 500px; height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px 0;
+}
+h1.graphic4{			
+	color: white;
+}
+p.graphic4{			
+	display: inline-block;
+	color: #999;
+}
+
+div.footer{
+	background: white;
+	color: black;
+}
+p.title{
+	padding-top: 20px;
+	text-align: left;
+	font-size: 20px;
+	font-style: italic;
+}
+
+div.signature{
+	margin: 0; padding: 0;
+	background: white;
+	padding: 0 0 10px 20px;
+	height: 145px;
+}
+div.footerRt{
+	margin: 0; padding: 0;
+	background: white;
+	height: 145px;
+}
+img.logoBtm{
+	height: 100px;
+	width: auto;
+	float: right;
+	margin: 25px 20px 0 0;
+}
+
+
+
+
+
+
+
+/* /////////////////////// OVERRIDING LIBRARY RULES/////////////////////////////////*/
+@media (max-width: 992px){
+	div.col-sm-12 {
+		padding: 20px 5% 0 5%;
+		margin-bottom: -20px;
+	}
+}
+
+@media (max-width: 768px){
+	div.col-xs-12{
+		padding: 20px 5% 0 5%;
+		margin-bottom: -20px;
+	}
+>>>>>>> origin/master
 }
 
 
