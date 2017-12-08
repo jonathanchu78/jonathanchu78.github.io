@@ -1,0 +1,84 @@
+div.about{
+	font-size: 18px;
+	color: black;
+	width: 100%;
+	padding: 0 5% 3% 5%;
+}
+h1.about{
+	text-align: left;
+	font-family: "century gothic";
+	font-size: 50px;
+	font-weight: normal;
+	margin: 100px 0 25px 0;
+}
+a{
+	color: #5a87ce;
+}
+div.icons{
+	position: relative;
+	width: 40%;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: -18%;
+	z-index: 1;
+}
+img.icon{
+	width: 10%;
+}
+
+#GH{
+	width: 11%;
+}
+#YT{
+	width: 13%;
+}
+a.icon{
+	margin: 0 4%;
+}
+
+div.orgs{
+	margin: 0 auto;
+
+}
+img.org{
+	width: 12.5%;
+	margin: 0 3.5%;
+}
+#organizations{
+	text-align: center;
+	font-family: "MyriadPro";
+}
+#details{
+	text-align: center;
+	font-family: "MyriadPro";
+	margin-bottom: 3%;
+}
+
+div.filler{
+	height: 500px;
+	padding-top: 1.5%;
+}
+
+div.hover{
+	display: none;
+	margin: 0 3.5%;
+	font-size: 18px;
+	width: 60%;
+}
+
+@media (max-width: 768px){
+	div.icons{
+		margin-top: -23%;
+		width: 245px;
+	}
+	img.icon{
+		width: 20px;
+	}
+	#GH, #YT{
+		width: 25px;
+	}
+	img.org{
+		width: 14%;
+		margin: 0 2%;
+	}
+}
