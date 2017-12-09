@@ -4,12 +4,12 @@ nav.navbar{
 }
 
 body{
-	background: #002663;
+	background: #00163a;
 }
 
 div.intro{
 	width: 60%;
-	margin: 3% auto;
+	margin: 1.5% auto;
 	text-align: center;
 	color: white;
 }

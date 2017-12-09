@@ -28,13 +28,6 @@ img{
 	display: block;
 	height: auto;
 }
-img.me{
-	margin-left: auto;
-	margin-right: auto;
-	width: 500px;
-	height: auto;
-	padding: 50px 0 50px 0;
-}
 
 /* //////////////   CAROUSEL  ///////////////////*/
 
@@ -62,12 +55,12 @@ img.me{
   width: 15%;
   color: #555;
   text-align: center;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 
 .carousel-control:hover{
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .carousel-control.left:hover{
@@ -92,12 +85,12 @@ img.me{
 /*/////////////// MODIFYING BOOTSTRAP END ///////////////////////*/
 
 div.container{
-	width: 60%;
-	margin: 5% auto;
+	height: 60%;
+	margin: 2% auto;
 }
 
 div.square{
-	width: 45%;
+	width: 40%;
 }
 
 div.vertical{
