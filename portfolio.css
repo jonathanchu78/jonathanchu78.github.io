@@ -1,4 +1,8 @@
-
+div.bio{
+	width: 70%; 
+	margin: 4% auto 0 auto; 
+	text-align: left;
+} 
 
 nav.navbar{
 	border-bottom: solid;
@@ -84,11 +88,10 @@ img{
 }
 
 .carousel-indicators {
-  position: absolute;
   position: relative;
-  bottom: 10px;
+  bottom: 20px;
   left: 50%;
-  z-index: 15;
+  z-index: 1;
   width: 60%;
   padding-left: 0;
   margin-left: -30%;
@@ -115,7 +118,7 @@ img{
 }
 /*/////////////// MODIFYING BOOTSTRAP END ///////////////////////*/
 div.carousel-inner{
-	height: 500px;
+	height: 750px;
 }
 
 div.container{
@@ -141,23 +144,28 @@ p.desc{
 	text-align: left;
 }
 
-
+.post-ftc{ width: 60%; }
+.graphtech-banner{  width: 80%; }
+.welcome-weeks{ width: 75%; }
+.wlc-logo{ width: 50%; }
+div.bruin-day-cont{ width: 50%; }
+img.bruin-day-img{ width: 45%; }
 
 @media (max-width: 768px){
 	h1{
 		font-size: 18px;
 	}
-	div.bio, p.desc{
-		font-size: 12px;
+	div.bio{
+		width: 90%;
+		font-size: 14px;
+		margin-bottom: 100px;
+	}
+	div.carousel-inner{
+		height: 350px;
 	}
 	div.container{
-		width: 80%;
-		margin: 5% auto;
+		width: 85%;
+		margin: 3% auto;
 	}
-	div.square{
-		width: 65%;
-	}
-	div.vertical{
-		width: 50%;
-	}
+	img.bruin-day-img{ width: 55%; }
 }

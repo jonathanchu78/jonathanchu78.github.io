@@ -81,4 +81,7 @@ div.hover{
 		width: 14%;
 		margin: 0 2%;
 	}
+	div.hover{
+		width: 90%;
+	}
 }
