@@ -2,17 +2,17 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<!--<div id="nav-placeholder"></div>
  	<script src="script.js"></script>-->
- 	<script src="https://www.w3schools.com/lib/w3.js"></script>
-	<script>
-		w3.includeHTML();
-	</script>
-	
-	<style>
-		
-	</style>
-</head>
+ 	
+ 	<div id="nav-placeholder"></div>
 
-<div w3-include-html="navigation.html"></div>
+ 	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script>
+		$.get("navigation.html", function(data){
+		    $("#nav-placeholder").replaceWith(data);
+		});
+	</script>
+	</head>
+
 <!--end of Navigation bar-->
 <body>
 	
