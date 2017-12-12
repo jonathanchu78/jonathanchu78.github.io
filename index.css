@@ -55,14 +55,14 @@ img.org{
 }
 
 div.filler{
-	height: 500px;
+	height: 420px;
 	padding-top: 1.5%;
 }
 
 div.hover{
 	display: none;
 	margin: 0 3.5%;
-	font-size: 18px;
+	font-size: 15px;
 	width: 60%;
 }
 
