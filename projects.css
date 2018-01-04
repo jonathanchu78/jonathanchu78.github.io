@@ -45,3 +45,7 @@ div.row{
 img.image{
 	width: 100%;
 }
+
+div.indent{
+	padding-top: 20px;
+}

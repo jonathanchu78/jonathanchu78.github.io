@@ -118,7 +118,7 @@ img{
 }
 /*/////////////// MODIFYING BOOTSTRAP END ///////////////////////*/
 div.carousel-inner{
-	height: 750px;
+	height: 530px;
 }
 
 div.container{
@@ -144,24 +144,24 @@ p.desc{
 	text-align: left;
 }
 
-.post-ftc{ width: 60%; }
-.graphtech-banner{  width: 80%; }
-.welcome-weeks{ width: 75%; }
-.wlc-logo{ width: 50%; }
+div.post-ftc{ width: 60%; }
+div.graphtech-banner{  width: 80%; }
+div.welcome-weeks{ width: 75%; }
+div.wlc-logo{ width: 50%; }
 div.bruin-day-cont{ width: 50%; }
 img.bruin-day-img{ width: 45%; }
 
 @media (max-width: 768px){
 	h1{
-		font-size: 18px;
+		font-size: 20px;
 	}
 	div.bio{
 		width: 90%;
 		font-size: 14px;
-		margin-bottom: 100px;
+		margin-bottom: 30px;
 	}
 	div.carousel-inner{
-		height: 350px;
+		height: 400px;
 	}
 	div.container{
 		width: 85%;
