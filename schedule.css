@@ -1,6 +1,6 @@
 #container{
-	height: 720px;
-	width: 500px;
+	height: 1440px;
+	width: 1000px;
 	margin: 0 auto;
 	padding: 0 0.25px;
 	background: black;
@@ -8,9 +8,9 @@
 
 img.bg{
 	position: absolute;
-    width: 500px;
+    width: 1000px;
     z-index: 0;
-    bottom: -200px;
+    top: -160px;
     opacity: 0.6;
     /*margin-left: -254.73px;*/
 }
@@ -56,7 +56,8 @@ li{
 ul.times li{
 	height: 10%;
 	width: 100%;
-	padding-top: 16px;
+	font-size: 22px;
+	padding-top: 42px;
 }
 
 ul.classes{
@@ -69,14 +70,13 @@ ul.classes li{
 	height: 10%;
 	display: inline-block;
 	position: relative;
-	font-size: 10px;
-	line-height: 13px;
-    padding-top: 3px;
+	font-size: 20px;
+	line-height: 25px;
+    padding-top: 10px;
 }
 
 ul.classes li.dt{
-	padding-top: 27px;
-	line-height: 15px;
+	padding-top: 70px;
 	border-bottom: none;
 }
 
