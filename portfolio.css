@@ -118,7 +118,7 @@ img{
 }
 /*/////////////// MODIFYING BOOTSTRAP END ///////////////////////*/
 div.carousel-inner{
-	height: 530px;
+	height: 750px;
 }
 
 div.container{
@@ -151,6 +151,12 @@ div.wlc-logo{ width: 50%; }
 div.bruin-day-cont{ width: 50%; }
 img.bruin-day-img{ width: 45%; }
 
+@media (max-width: 1360px){
+  div.carousel-inner{
+    height: 520px;
+  }
+}
+
 @media (max-width: 768px){
 	h1{
 		font-size: 20px;
@@ -161,7 +167,7 @@ img.bruin-day-img{ width: 45%; }
 		margin-bottom: 30px;
 	}
 	div.carousel-inner{
-		height: 400px;
+		height: 450px;
 	}
 	div.container{
 		width: 85%;
