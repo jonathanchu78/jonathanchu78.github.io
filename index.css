@@ -14,12 +14,16 @@ h1.about{
 a{
 	color: #5a87ce;
 }
-div.icons{
-	position: relative;
+
+div.icons {
+	position: absolute;
 	width: 40%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
 	padding: 20px;
 	margin: 0 auto;
-	margin-top: -18%;
+	margin-top: -17%;
 	z-index: 1;
 }
 img.icon{
@@ -67,21 +71,14 @@ div.hover{
 }
 
 @media (max-width: 768px){
-	div.icons{
-		margin-top: -23%;
-		width: 245px;
-	}
-	img.icon{
-		width: 20px;
-	}
-	#GH, #YT{
-		width: 25px;
-	}
 	img.org{
 		width: 14%;
 		margin: 0 2%;
 	}
 	div.hover{
 		width: 90%;
+	}
+	div.icons{
+		width: 200px;
 	}
 }
