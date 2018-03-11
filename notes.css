@@ -27,7 +27,7 @@ div.container{
 div.class{
 	margin: 2%;
 	padding: 0.5%;
-	height: 165px;
+	height: 185px;
 	background: white;
 }
 
@@ -86,7 +86,7 @@ a.ln:hover{
 		font-size: 15px;
 	}
 	div.class{
-		height: 145px;
+		height: 165px;
 	}
 }
 
@@ -101,7 +101,7 @@ a.ln:hover{
 		font-size: 12px;
 	}
 	div.class{
-		height: 120px;
+		height: 140px;
 	}
 	#master{
 		margin: 0 1%;
