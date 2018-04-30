@@ -51,14 +51,14 @@ img.logo{
 .navbar-default .navbar-nav > li > a {
 	background: white;
 	height: 50px;
-  font-family: "AvantGarde";
-  line-height: 35px;
-  font-size: 21px;
-  color: black;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  transition: 0.5s ease;
+	font-family: "Pasajero";
+	line-height: 35px;
+	font-size: 21px;
+	color: #0F131D;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	transition: 0.5s ease;
 }
 
 button.navbar-toggle{
@@ -67,7 +67,7 @@ button.navbar-toggle{
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #4c8de8;
+	color: #859cc1;
 	background: white;
 }
 
