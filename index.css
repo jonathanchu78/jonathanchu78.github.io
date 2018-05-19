@@ -95,7 +95,6 @@ a.icon{
 
 div.orgs{
 	margin: 0 auto;
-
 }
 img.org{
 	width: 12.5%;
@@ -112,7 +111,7 @@ img.org{
 }
 
 div.filler{
-	height: 440px;
+	height: 480px;
 	padding-top: 1.5%;
 }
 
@@ -123,15 +122,21 @@ div.hover{
 	width: 60%;
 }
 
+@media(max-width: 1500px){
+	.outer-container{
+		top: 15%;
+	}
+}
+
 @media(max-width: 1100px){
 	.outer-container{
-		top: 18%;
+		top: 12%;
 	}
 }
 
 @media (max-width: 768px){
 	img.org{
-		width: 14%;
+		width: 15%;
 		margin: 0 2%;
 	}
 	div.hover{
@@ -142,7 +147,7 @@ div.hover{
 		width: 200px;
 	}
 	.outer-container{
-		top: 16%;
+		top: 9.5%;
 	}
 	#organizations{
 		font-size: 20px;
