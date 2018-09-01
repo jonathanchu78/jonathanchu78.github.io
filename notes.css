@@ -25,10 +25,11 @@ div.container{
 }
 
 div.class{
-	margin: 2%;
+	margin: 3%;
 	padding: 0.5%;
 	height: 185px;
 	background: white;
+	border-radius: 8px;
 }
 
 h2{
