@@ -14,8 +14,12 @@ div.intro{
 	color: white;
 }
 
-#master{
+.margins{
 	margin: 0 4%;
+}
+
+.subject{
+	color: white;
 }
 
 div.container{
