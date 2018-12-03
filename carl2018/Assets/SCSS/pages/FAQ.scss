@@ -1,0 +1,28 @@
+/* --------------------------------
+FAQ panels
+-------------------------------- */
+.FAQ-bg { //Background panels of questions
+  @extend .download-panel;
+  &:hover {
+    background-color: $beige;
+    color: black;
+  }
+}
+
+.FAQ-bg + p { //FAQ answers
+  margin: 3%;
+  color: white;
+}
+
+/* --------------------------------
+Responsive
+-------------------------------- */
+@media only screen and (max-width: 576px) {
+  #gen-info { //General FAQ information section
+    margin-top: 0;
+  }
+
+  .FAQ-bg {
+    margin-top: 10%;
+  }
+}
