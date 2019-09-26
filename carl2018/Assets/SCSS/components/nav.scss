@@ -1,0 +1,70 @@
+/* --------------------------------
+Navbar
+-------------------------------- */
+.custom-nav { //Overrides bootstrap navbar CSS
+  background: {
+    color: $navbar!important;
+    image: url(../Images/white-stripes.png); //For adding masthead stripes to navbar
+    size: contain;
+    size: 100% 10%;
+    repeat: no-repeat;
+    position: bottom;
+  }
+  border: {
+    width: 0;
+    radius: 0;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link { //Color of navbar links
+  color: white;
+  font-family: $sub2;
+  &:hover {
+    font-weight: bold;
+    color: $yellow
+  }
+}
+
+.navbar-nav .dropdown-menu { //Dropdown menu settings
+  background-color: $light-green;
+  border: 2px solid white;
+  font-family: $sub2;
+  &:hover {
+    font-weight: bold;
+    color: $yellow;
+  }
+}
+
+.dropdown-item { //Hover dropdown items
+  &:hover {
+    background-color: $beige;
+  }
+}
+
+#mobileLogo {
+  display: none;
+}
+
+#cnh {
+  display: block;
+  float: right;
+  position: relative;
+}
+
+/* --------------------------------
+Responsive
+-------------------------------- */
+@media only screen and (max-width: 576px) {
+  .custom-nav{ //Disabled because masthead stripes stretch upon expand
+    background-image: none;
+  }
+
+  #cnh { //Removes logo at end of responsive navbar
+    display: none;
+  }
+
+  #mobileLogo { //CNH logo will display at the bottom of the responsive navbar when toggled
+     display: block;
+   }
+}
+

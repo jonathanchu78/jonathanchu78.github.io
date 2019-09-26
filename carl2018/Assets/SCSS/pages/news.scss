@@ -1,0 +1,87 @@
+/* --------------------------------
+News carousels
+-------------------------------- */
+.carousel {
+  padding: 1em;
+  background-color: $sub-panel-color;
+}
+
+#carouselExampleIndicators {
+  height: 35em;
+}
+
+.carousel-item {
+  max-height: 25em;
+}
+
+.carousel-item-news {
+  max-height: 40em;
+}
+
+.carousel-item-next-news, .carousel-item-prev-news, .carousel-item-news.active {
+  width: 35%;
+}
+
+#newsDeadlines {
+  width: 20%;
+  margin: {
+    left: auto;
+    right: auto;
+    top: 5%;
+  }
+}
+
+.videos {
+  margin-left: 12.8%;
+}
+
+.weeklyOH {
+  width:33%;
+  margin:{
+    left: auto;
+    right: auto;
+    top: 3%;
+  }
+}
+
+
+/* --------------------------------
+News panels
+-------------------------------- */
+.news {
+  margin-bottom: 5%;
+}
+
+.card-header {
+  background-color: $sub-panel-color2;
+  color: white;
+}
+
+/* --------------------------------
+Announcements badges
+-------------------------------- */
+.badge-general {
+  background-color: $panel-color;
+}
+
+.badge-deadline {
+  background-color: $salmon;
+}
+
+/* --------------------------------
+Mobile
+-------------------------------- */
+@media screen and (max-width:576px) {
+  #carouselExampleIndicators {
+    height: 25em;
+  }
+
+  .weeklyOH {
+    width: 75%;
+    margin-top: 25%;
+  }
+
+  #newsDeadlines {
+    width: 75%;
+  }
+}

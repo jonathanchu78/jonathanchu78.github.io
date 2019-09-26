@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- Set the page to the width of the device and set the zoon level -->
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		<title>
+			Home
+		</title>
+
+		<!-- Latest compiled and minified CSS -->
+
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106615652-1"></script>
+		<script type="text/javascript">
+			// for now, just redirect to my resume
+			window.location.href = "Documents/Resume.pdf";
+		</script>
+
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments)};
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-106615652-1');
+		</script>
+	</head>
+
+
+		<!-- //////////////////////// NAVBAR START ///////////////////////// -->
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		  		<a class="navbar-brand" href="index.html">
+		          <img src="Assets/Brand.png" class="logo navbar-brand">
+		   		</a>
+		    <div class="navbar-header">
+
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="myNavbar">
+			      <ul class="nav navbar-nav">
+			        <li><a id="first" href="projects.html">projects</a></li>
+			        <li><a href="portfolio.html">graphics</a></li>
+			        <li><a href="notes.html">notes/exams</a></li>
+			        <!-- <li><a href="recordings.html">piano</a></li> -->
+			        <li><a href="contact.html">contact</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+
+	<body id="body" onscroll="myFunction()">
+		<!-- //////////////////////// NAVBAR END ///////////////////////// -->
+
+		<div class="home">
+			<img class="home" src="Assets/Home2.png" alt="">
+		</div>
+
+		<div class="outer-container">
+			<div class="container-me">
+				<img class="me" id="ctr" src="Assets/ctr.png">
+				<img class="me" id="inner" src="Assets/inner.png">
+				<img class="me" id="outer" src="Assets/outer.png">
+			</div>
+		</div>
+		<script type="text/javascript">console.log("here");</script>
+
+		<script>
+			function myFunction() {
+				var doc = document.documentElement;
+			    var elmnt = document.getElementById("body");
+			    //var x = elmnt.scrollLeft;
+			    var y = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+			    //console.log("x = " + x);
+			    console.log("y = " + y.toString() + "px");
+			    document.getElementById("stark").style.top = y.toString() + "px";
+			}
+		</script>
+
+		<div class="iconcontainer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="icons">
+				<a class="icon" href="https://github.com/jonathanchu78" target="_blank"><img class="icon" src="Assets/github.png" id="GH" onmouseover="this.src='Assets/github-black.png'" onmouseout="this.src='Assets/github.png'" alt=""></a>
+				<a class="icon" href="https://www.facebook.com/jonathan.chu.902" target="_blank"><img class="icon" id="FB" src="Assets/facebook.png" onmouseover="this.src='Assets/facebook-black.png'" onmouseout="this.src='Assets/facebook.png'" alt=""></a>
+				<a class="icon" href="https://www.linkedin.com/in/jonathan-chu-662194b4/" target="_blank"><img class="icon" id="IN" src="Assets/linkedin.png" onmouseover="this.src='Assets/linkedin-black.png'" onmouseout="this.src='Assets/linkedin.png'" alt=""></a>
+				<a class="icon" href="https://www.youtube.com/channel/UCnk_E7bywcZkz1E6Zt5vrrA" target="_blank"><img class="icon" id="YT" src="Assets/youtube.png" onmouseover="this.src='Assets/youtube-black.png'" onmouseout="this.src='Assets/youtube.png'" alt=""></a>
+				<a class="icon" href="Documents/Resume.pdf" target="_blank"><img class="icon" id="RS" src="Assets/resume.png" onmouseover="this.src='Assets/resume-black.png'" onmouseout="this.src='Assets/resume.png'" alt=""></a>
+			</div>
+		</div>
+
+		<div class="about">
+			Hello! My name is Jonathan, but you already knew that. I'm a 2nd year Computer Science & Engineering major at UCLA.
+			<br><br>
+			In my time at UCLA, I've had the opportunity to explore the great realm of computers, code, and engineering through the wonderful coursework provided by the CS department in addition to technical experience I've gained outside of class through various projects and organizations. Check out some of the projects I've worked on <a href="projects.html">here</a> and organizations I've worked with below!
+			<br><br>
+			I also find opportunities during what free time I have doing <a href="portfolio.html">graphic design</a> and developing my skill as a musician. I hope to continue improving <a target="_blank" href="recordings.html">as a pianist</a> for the rest of my life.
+		</div>
+		<div class="orgs">
+			<h3 id="organizations">What organizations have I been involved with?</h3>
+			<h4 id="details">(tap or hover for details)</h4>
+			<a class="amazon"><img src="Assets/amzn.png" class="org"></a>
+			<a class="builducla"><img src="Assets/builducla.png" alt="" class="org builducla"></a>
+			<a class="cki"><img src="Assets/cki.png" alt="" class="org"></a>
+			<a class="poasis"><img src="Assets/poasis.png" alt="" class="org"></a>
+			<a class="db"><img src="Assets/db.png" alt="" class="org"></a>
+			<!--<a class="mso"><img src="Assets/mso.png" alt="" class="org"></a>-->
+		</div>
+
+		<div class="filler">
+			<div class="hover hover1">
+				<h2>Amazon</h2>
+				I'll be working as a Software Development Engineering Intern on the <a href="https://www.amazon.com/b?ie=UTF8&node=16008589011">Amazon Go</a> team during the summer of 2018!
+			</div>
+			<div class="hover hover2">
+				<a target="_blank" href="https://uclalibrary.github.io/BuildUCLA/"><h2>BuildUCLA</h2></a>
+				Software Developer | June 2017 - Current <br><br>
+				Current Project: Image Collection Navigation (<a href="https://github.com/UCLALibrary/ImageCollectionNavigator">GitHub</a>) <br><br>
+
+				Over the years, UCLA Library has collected hundreds of images related to UCLA, and our job is to build a website to creatively visualize these images, with the  help of machine learning similarity and clustering algorithms. I'm building the website with <a style="font-weight: bold; color: black; text-decoration: none;">Flask</a> and Neo4j, a graph database. <br><br>
+
+				Previous project: <a target="_blank" href="http://ec2-54-173-153-28.compute-1.amazonaws.com:8000/#/">Community Cataloging</a> (<a href="https://github.com/UCLALibrary/CC-ing">GitHub</a>), a project whose goal is to streamline the process of cataloging books written in foreign languages that have been off the library shelves for too long. <br><br>
+
+				The app, hosted with Amazon Web Services, consists of ScribeAPI, a Ruby on Rails app which makes up the main interface, Tesseract OCR, which we're using to automate the conversion of book titles and other phrases from images to text, and a Django image uploader
+
+				I worked towards connecting separate components by sending image and marking data to ScribeAPI. This task involved investigating how each API works, analyzing how we can push and pull data conveniently, and actually connecting them using <a style="font-weight: bold; color: black; text-decoration: none;">Python</a> scripts.
+			</div>
+			<div class="hover hover3">
+				<a target="_blank" href="http://parkingoasis.com/beta/"><h2>Poasis</h2></a>
+				Web Developer | April 2017 - June 2017 <br><br>
+				I worked for a local startup based in Westwood, CA focused on connecting owners of open parking spots to those willing to purchase parking spots, analogous to Uber but for parking. The other student developers and I were in charge of maintaining and adding on to the company <a href="http://parkingoasis.com/beta/">website</a>. <br><br>
+
+				While I was there, I worked on a new webpage that was needed for apartment owners with parking spots to efficiently post their spots all at once. This involved writing PHP code to handle client-side logic and SQL to push and pull information from our database.
+			</div>
+			<div class="hover hover4">
+				<h2>Circle K International</h2>
+				Technology Chair | April 2018 - Present | <a target="_blank" href="http://www.cnhcirclek.org/">California-Nevada-Hawaii District</a> <br>
+				Audio/Visual & Technology Chair | May 2017 - November 2017 | <a target="_blank" href="http://www.ftc.cnhcirclek.org/">CNH District Fall Training Conference Committee</a> <br>
+				Graphic Design Chair | March 2017 - March 2018 | <a target="_blank" href="http://uclacki.org">UCLA Chapter</a> <br><br>
+				Circle K International is the largest collegiate service organization in the world, and our UCLA Chapter is one of the strongest in the world. Community service has provided me an outlet for giving back to others rather than just building myself and has definitely become a large part of my college experience. <br><br>
+
+				I currently serve as the Technology Chair for the CNH District of Circle K, making me responsible for overseeing all things technology in the District. I maintain and update the District website, <a href="http://www.cnhcirclek.org">cnhcirclek.org</a>, and work with a board of Lieutenant Governors and fellow Committee Chairs to ensure all the District's technical needs are satisfied. I am also starting a CNH District Technology Committee, the first of its kind, to create a team of individuals who will bring technology to even greater use in our organization. <br><br>
+
+				Fall Training Conference (FTC) is an annual 700 attendee event in Sonora, CA focused on educating and connecting members from California, Nevada, and Hawaii. As Audio Visual & Technology Chair for the FTC Committee, I built the <a href="http://ftc.cnhcirclek.org">website</a> and handled all AV equipment during the event. <br><br>
+
+				As Graphic Design Chair, I was in charge of everything design-related, including flyers, social media graphic announcements, and Facebook banners. I chaired a committee and delegated design work to five committee members, acting as the lead designer and manager of the graphic design committee. Check out some of my designs on the <a href="portfolio.html">Graphics</a> tab.
+
+			</div>
+			<div class="hover hover5">
+				<a target="_blank" href="http://dailybruin.com/"><h2>Daily Bruin</h2></a>
+				Graphics Contributor | January 2017 - June 2017 <br><br>
+
+				The Daily Bruin is the award-winning campus newspaper at UCLA. <br><br>
+
+				As part of the graphics department, I picked up new graphic design skills, created designs to be printed on the paper, and worked alongside teammates on creative standalone graphics highlighting useful, interesting topics for the student body.
+			</div>
+			<!--<div class="hover hover6">
+				<a target="_blank" href="http://www.msoatucla.org/"><h2>Morning Sign Out at UCLA</h2></a>
+				Editor | October 2016 - Present <br><br>
+				Morning Sign Out is dedicated to "improv[ing] healthcare literacy among the Los Angeles population, through the publication of easy-to-understand articles on science and healthcare." <br><br>
+
+				Although I am not interested in a career in healthcare, my involvement as an editor in Morning Sign Out has allowed me to hone my writing and communication skills through giving feedback to writers. I have edited articles every academic quarter, and it has allowed me to support an important cause - making healthcare accessible and understandable to everyone.
+			</div>-->
+		</div>
+
+		<script>
+			$('a.amazon').mouseover(function(){
+    			$('div.hover1').show();
+    			$('div.hover2').hide();
+    			$('div.hover3').hide();
+    			$('div.hover4').hide();
+    			$('div.hover5').hide();
+			})
+			$('a.builducla').mouseover(function(){
+    			$('div.hover1').hide();
+    			$('div.hover2').show();
+    			$('div.hover3').hide();
+    			$('div.hover4').hide();
+    			$('div.hover5').hide();
+			})
+			$('a.poasis').mouseover(function(){
+    			$('div.hover1').hide();
+    			$('div.hover2').hide();
+    			$('div.hover3').show();
+    			$('div.hover4').hide();
+    			$('div.hover5').hide();
+			})
+			$('a.cki').mouseover(function(){
+    			$('div.hover1').hide();
+    			$('div.hover2').hide();
+    			$('div.hover3').hide();
+    			$('div.hover4').show();
+    			$('div.hover5').hide();
+			})
+			$('a.db').mouseover(function(){
+    			$('div.hover1').hide();
+    			$('div.hover2').hide();
+    			$('div.hover3').hide();
+    			$('div.hover4').hide();
+    			$('div.hover5').show();
+			})
+		</script>
+	</body>

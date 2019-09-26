@@ -1,0 +1,179 @@
+<head>
+		<!-- Set the page to the width of the device and set the zoon level -->
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		<title>
+			Projects
+		</title>
+
+		<!-- Latest compiled and minified CSS -->
+
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="projects.css">
+
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106615652-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments)};
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-106615652-1');
+		</script>
+</head>
+
+<!-- //////////////////////// NAVBAR START ///////////////////////// -->
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+		<a class="navbar-brand" href="index.html">
+      <img src="Assets/Brand.png" class="logo navbar-brand">
+		</a>
+<div class="navbar-header">
+
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a id="first" href="projects.html">projects</a></li>
+        <li><a href="portfolio.html">graphics</a></li>
+        <li><a href="notes.html">notes/exams</a></li>
+        <!-- <li><a href="recordings.html">piano</a></li> -->
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--
+PERSONAL PROJECTS
+- FTC Website
+- Mesh
+- Games
+
+ACADEMIC PROJECTS
+- Neural Network
+- Navigation
+- Bugs
+-->
+
+<body>
+	<div class="personal container-fluid">
+		<h1>personal projects</h1>
+
+		<div class="livestock container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/livestock.PNG" class="image"></div>
+			<div class="right col-md-8 col-sm-12">
+				<h2>LiveStock</h2>
+				<p><a target="_blank" href="https://github.com/ChrispsL/Live-Stocks" class="light">GitHub</a></p>
+				<p>A web application that gives you buy/sell/hold recommendations about your stocks based on technical analysis and sends you a text message when sentiment towards one of your stocks drastically changes on Twitter. Financial data pulled from BlackRock's API, sentiment analysis done through Google Cloud API, text message sent via Twilio API. Won best use of BlackRock API at LA Hacks 2018.</p>
+				<p>Built with: node.js, Python/Flask, Google Cloud ML API, Twitter API, Twilio API, BlackRock API</p>
+			</div>
+		</div>
+
+		<div class="tetris container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/tetris.png" class="image"></div>
+			<div class="right col-md-8 col-sm-12">
+				<h2>TetrisAI</h2>
+				<p><a target="_blank" href="https://github.com/jonathanchu78/TetrisAI" class="light">GitHub</a></p>
+				<p>A tetris AI that moves on its own! Makes decisions by checking possible moves and selecting the least costly one, determined by the state of the board. Built using open source <a class="light" href="https://github.com/chaficnajjar/21st-century-tetris">C++ Tetris game.</a></p>
+				<p>Built with: C++</p>
+			</div>
+		</div>
+
+		<div class="ftc container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/ftc.PNG" class="image"></div>
+			<div class="right col-md-8 col-sm-12">
+				<h2>Fall Training Conference 2017 Website</h2>
+				<p><a target="_blank" href="https://ftc.cnhcirclek.org" class="light">ftc.cnhcirclek.org</a> | <a target="_blank" href="https://github.com/jonathanchu78/FTC-2017" class="light">GitHub</a></p>
+				<p>Website for FTC 2017, a 700-attendee event for Circle K International clubs from California, Nevada, and Hawaii.</p>
+				<p>Built with: HTML, CSS, Bootstrap, some JavaScript, Illustrator</p>
+			</div>
+		</div>
+
+		<div class="mesh container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/mesh.png" class="image"></div>
+			<div class="right col-md-8 col-sm-12">
+				<h2>Mesh</h2>
+				<p><a target="_blank" href="https://jonathanchu78.github.io/Mesh/" class="light">jonathanchu78.github.io/Mesh</a> | <a target="_blank" href="https://github.com/jonathanchu78/Mesh" class="light">GitHub</a></p>
+				<p>An event schedule app meant to replace paper pamphlets at large-scale events.</p>
+				<p>Built with: HTML, CSS, Bootstrap, JavaScript, Firebase</p>
+			</div>
+		</div>
+
+		<!--<div class="game container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/games.PNG" class="image"></div>
+			<div class="right col-md-8 col-sm-12">
+				<h2>Game Break</h2>
+				<p><a target="_blank" href="https://jonathanchu78.github.io/Games/" class="light">jonathanchu78.github.io/Games</a> | <a target="_blank" href="https://github.com/jonathanchu78/Games" class="light">GitHub</a></p>
+				<p>First hackathon project: a website with several simple browser games.</p>
+				<p>Built with: HTML, CSS, JavaScript</p>
+			</div>
+		</div>-->
+	</div>
+
+	<div class="academic container-fluid">
+		<h1>academic projects</h1>
+		<div class="152a container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/152a.jpg" class="image" style="width: 90%;"></div>
+			<div class="right col-md-8 col-sm-12">
+				<h2>Shoot the Tank</h2>
+				<p>CS M152A: Digital Design Lab | TA: Gu | <a target="_blank" href="https://github.com/jonathanchu78/CS-M152A-UCLA/tree/master/Lab4">GitHub</a></p>
+				<p>A 2-player face-off between tanks launching projectiles at each other. Display rendered through VGA port on FPGA.</p>
+				<p>Built with: Verilog // FPGA</p>
+			</div>
+		</div>
+
+		<div class="digit container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/digits.png" class="image" style="width: 90%;"></div>
+			<div class="right col-md-8 col-sm-12">
+				<h2>Handwritten Digit Recognition</h2>
+				<p>Machine Learning (Coursera) | Prof. Ng <!--| <a target="_blank" rhef="https://github.com/jonathanchu78/EE-M16-UCLA/tree/master/Labs">GitHub</a></p>-->
+				<p>A 3-layer neural network trained with 4000 examples using backpropagation and a given minimization algorithm.</p>
+				<p>Built with: Octave</p>
+			</div>
+		</div>
+
+		<div class="net container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/net.png" class="image"></div>
+			<div class="right col-md-8 col-sm-12">
+				<h2>Neural Network Morse Decoder</h2>
+				<p>EE M16: Logic Design of Digital Systems | Prof. Mehta | <a target="_blank" href="https://github.com/jonathanchu78/EE-M16-UCLA/tree/master/Labs">GitHub</a></p>
+				<p>A hardware neural network taking as input a 1-bit morse signal and that determines letters represented by the signal.</p>
+				<p>Built with: Verilog</p>
+			</div>
+		</div>
+
+		<div class="navigation container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/navigation.png" class="image"></div>
+			<div class="right indent col-md-8 col-sm-12">
+				<h2>Bruin Nav</h2>
+				<p>CS 32: Introductory Data Structures & Algorithms | Prof. Nachenberg | <a target="_blank" href="http://web.cs.ucla.edu/classes/winter17/cs32/Projects/4/spec.html">Spec</a> | <a target="_blank" href="https://github.com/jonathanchu78/CS-32-UCLA/tree/master/Project%204%20-%20Navigation">Sample Code</a></p>
+				<p>A navigation program finding the shortest path between points in the LA area, given a text file containing coordinates and distances.</p>
+				<p>Built with: C++ (Binary Search Tree, A* Algorithm)</p>
+			</div>
+		</div>
+
+		<div class="bugs container-fluid row">
+			<div class="left col-md-4 col-sm-12"><img src="Projects/bugs.png" class="image"></div>
+			<div class="right indent col-md-8 col-sm-12">
+				<h2>Bugs</h2>
+				<p>CS 32: Introductory Data Structures & Algorithms | Prof. Nachenberg | <a target="_blank" href="http://web.cs.ucla.edu/classes/winter17/cs32/Projects/3/spec.html">Spec</a> | <a target="_blank" href="https://github.com/jonathanchu78/CS-32-UCLA/tree/master/Project%203%20-%20Bugs%20Game">Sample Code</a></p>
+				<p>A game in which each player is assigned an anthill and given the task of programming their ants to maximize their anthill's size. Interactions all game objects (ants, antills, other bugs, rocks, etc) were considered.</p>
+				<p>Built with: C++ (Inheritance, Polymorphism)</p>
+			</div>
+		</div>
+	</div>
+</body>

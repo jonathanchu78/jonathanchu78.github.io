@@ -1,0 +1,52 @@
+nav.navbar{
+	border-bottom: solid;
+	border-bottom-width: 0.5px;
+}
+
+body{
+	background: #00163a;
+}
+
+h1{
+	font-family: "Pasajero";
+	font-size: 50px;
+	margin-top: 4%;
+}
+h2{
+	font-family: "AvantGarde";
+	margin: 0; padding: 0;
+	margin-top: 1%;
+}
+p{
+	margin: 1% 0;
+	font-size: 15px;
+}
+a.light{
+	color: #9ec3ff;
+}
+
+div.personal{
+	color: white;
+	padding: 0 12%;
+	padding-top: 1px;
+
+}
+
+div.academic{
+	padding: 0 12%;
+	padding-top: 20px;
+	background: white;
+}
+
+div.row{
+	margin: 5% 0;
+	padding: 0;
+}
+
+img.image{
+	width: 100%;
+}
+
+div.indent{
+	padding-top: 20px;
+}

@@ -1,0 +1,97 @@
+@font-face{font-family: 'MyriadPro'; src: url(Fonts/MyriadPro-Regular.otf) format('opentype');}
+@font-face{font-family: 'Pasajero'; src: url(Fonts/Pasajero.otf) format('opentype');}
+@font-face{font-family: 'AvantGarde'; src: url(Fonts/AvantGarde.ttf) format('truetype');}
+@font-face{font-family: 'CenturyGothic'; src: url(Fonts/CenturyGothic.ttf) format('truetype');}
+
+body{
+	font-family: "MyriadPro";
+	color: black;
+	background: white;
+	margin: 0;
+	margin-top: 80px;
+	padding: 0;
+}
+
+
+/* ////////////////// NAVBAR START ////////////////////////*/
+nav.navbar{
+	background: white;
+	padding: 0;
+	margin: none;
+	border: none;
+	height: 65px;
+	padding-left: 15px;
+	font-size: 20px;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+img.logo{
+	padding: 6px 0;
+	height: 65px;
+	margin-top: -15px;
+	margin-left: 7px !important;
+}
+
+.container-fluid{
+	margin: 0; padding: 0;
+}
+
+.collapse{
+	margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+	background: white;
+	height: 50px;
+	font-family: 'Pasajero';
+	line-height: 35px;
+	font-size: 21px;
+	color: #0F131D;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	transition: 0.5s ease;
+}
+
+button.navbar-toggle{
+	margin: 15px 30px 0 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #859cc1;
+	background: white;
+}
+
+@media (max-width: 768px){
+	img.logo{
+		margin-left: -7px !important;
+	}
+}
+
+/* ////////////////// NAVBAR END ////////////////////////*/
+
+img.home{
+	width: 100%;
+	margin-top: -19px;
+}
+
+a.logo{
+	border: none;
+	outline: none;
+	background: white;
+}
+
+h1{
+	font-family: CenturyGothic;
+	font-size: 40px;
+	padding: none;
+}
